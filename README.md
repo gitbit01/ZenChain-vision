@@ -15,23 +15,7 @@ Welcome to the official ZenChain web interface — a powerful decentralized bloc
 - **AI-Powered Chatbot:** Integrated assistant to help users navigate and interact with the ecosystem efficiently.
 - **Responsive Design:** Mobile and desktop friendly layouts for optimized user experience across devices.
 
-# ZenChain Decentralized Blockchain Platform
 
-Welcome to the official ZenChain web application — a cutting-edge blockchain platform combining Bitcoin's security with Ethereum's smart contract flexibility.
-
----
-
-## Features
-
-- Bitcoin-level security with Proof-of-Work consensus
-- Fully Ethereum Virtual Machine (EVM) compatible
-- Cross-chain bridge support for interoperability
-- Intuitive UI with wallet connection and staking features
-- Blockchain explorer and faucet integration
-- AI-powered chatbot for seamless user assistance
-- Responsive design for desktop and mobile devices
-
----
 
 ## Installation and Running Locally
 
