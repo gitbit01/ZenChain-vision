@@ -1,0 +1,102 @@
+.documentation {
+  padding: 2rem 0;
+}
+
+.docs-hero {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, rgba(50, 194, 230, 0.1) 0%, rgba(0, 212, 163, 0.1) 100%);
+  text-align: center;
+}
+
+.docs-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--primary-teal);
+}
+
+.docs-hero .gradient-text {
+  background: linear-gradient(90deg, #32c2e6 0%, #00d4a3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.docs-hero p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+.sections-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 900px;
+  margin: 3rem auto 0;
+}
+
+.doc-section-card {
+  background: var(--dark-card);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow-lg);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-header .section-icon {
+  font-size: 2rem;
+  color: var(--primary-teal);
+}
+
+.section-header h3 {
+  margin: 0;
+  color: var(--primary-teal);
+  font-weight: 700;
+}
+
+.section-header p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.section-header .section-info {
+  flex: 1;
+}
+
+.doc-section-card .doc-link {
+  display: block;
+  padding: 0.5rem 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: color 0.3s ease;
+}
+
+.doc-section-card .doc-link svg {
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.doc-section-card .doc-link:hover {
+  color: var(--primary-teal);
+}
+
+@media (max-width: 768px) {
+  .sections-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .docs-hero h1 {
+    font-size: 1.8rem;
+  }
+}
