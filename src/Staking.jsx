@@ -178,12 +178,10 @@ const Staking = () => {
                   </button>
                 </div>
               </div>
-
               <div className="reward-preview">
-                <p>Estimated daily rewards:</p>
+                <p>Estimated daily reward:</p>
                 <p className="reward-amount">{calculateRewards()} ZTC</p>
               </div>
-
               <button className="stake-btn">
                 <Lock size={20} /> Stake Tokens
               </button>
@@ -208,5 +206,5 @@ const Staking = () => {
     </div>
   );
 };
-
 export default Staking;
+
