@@ -15,7 +15,6 @@ const Bridge = () => {
     { id: 'polygon', name: 'Polygon', symbol: 'MATIC', logo: '◈' },
     { id: 'bsc', name: 'BSC', symbol: 'BNB', logo: '◆' }
   ]
-
   const supportedTokens = [
     { symbol: 'ETH', name: 'Ethereum', decimals: 18 },
     { symbol: 'BTC', name: 'Bitcoin', decimals: 8 },
@@ -187,3 +186,4 @@ const Bridge = () => {
 }
 
 export default Bridge
+
